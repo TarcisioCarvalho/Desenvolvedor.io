@@ -34,3 +34,9 @@ C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MVCBasica\MVCBasica\obj\Debug\netc
 C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MVCBasica\MVCBasica\obj\Debug\netcoreapp2.2\MVCBasica.pdb
 C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MVCBasica\MVCBasica\obj\Debug\netcoreapp2.2\MVCBasica.genruntimeconfig.cache
 C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MVCBasica\MVCBasica\obj\Debug\netcoreapp2.2\MVCBasica.csproj.CopyComplete
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MVCBasica\MVCBasica\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedors\Create.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MVCBasica\MVCBasica\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedors\Delete.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MVCBasica\MVCBasica\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedors\Details.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MVCBasica\MVCBasica\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedors\Edit.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MVCBasica\MVCBasica\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedors\Index.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MVCBasica\MVCBasica\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedors\_Endereco.cshtml.g.cs
