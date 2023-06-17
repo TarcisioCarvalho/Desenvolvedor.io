@@ -13,7 +13,7 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 916460220,
+        "HashCode": 1324039000,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.AnchorTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -212,7 +212,7 @@
         }
       },
       {
-        "HashCode": -2047488456,
+        "HashCode": -985272753,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.CacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -341,7 +341,7 @@
         }
       },
       {
-        "HashCode": 995506500,
+        "HashCode": 736893326,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.DistributedCacheTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -475,7 +475,7 @@
         }
       },
       {
-        "HashCode": 640444572,
+        "HashCode": -156263657,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.EnvironmentTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -523,7 +523,7 @@
         }
       },
       {
-        "HashCode": 1169377479,
+        "HashCode": -1158639152,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormActionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -942,7 +942,7 @@
         }
       },
       {
-        "HashCode": -1744391776,
+        "HashCode": -2057342401,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.FormTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1046,7 +1046,7 @@
         }
       },
       {
-        "HashCode": -1267479805,
+        "HashCode": 1226071502,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1094,7 +1094,7 @@
         }
       },
       {
-        "HashCode": -2115874370,
+        "HashCode": -1769028260,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1166,7 +1166,7 @@
         }
       },
       {
-        "HashCode": -883165669,
+        "HashCode": 1542236332,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1201,7 +1201,7 @@
         }
       },
       {
-        "HashCode": -3687908,
+        "HashCode": -1674729409,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.LinkTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1399,7 +1399,7 @@
         }
       },
       {
-        "HashCode": 2041030911,
+        "HashCode": -919484222,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1429,7 +1429,7 @@
         }
       },
       {
-        "HashCode": -354545781,
+        "HashCode": -128237371,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1512,7 +1512,7 @@
         }
       },
       {
-        "HashCode": -1377200772,
+        "HashCode": 1211784703,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ScriptTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1667,7 +1667,7 @@
         }
       },
       {
-        "HashCode": -589822202,
+        "HashCode": -1721795058,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1728,7 +1728,7 @@
         }
       },
       {
-        "HashCode": 2068591115,
+        "HashCode": 1304623313,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1772,7 +1772,7 @@
         }
       },
       {
-        "HashCode": 471806680,
+        "HashCode": 193146021,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1806,7 +1806,7 @@
         }
       },
       {
-        "HashCode": 465303716,
+        "HashCode": -1376672338,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.TagHelpers.ValidationSummaryTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.TagHelpers",
@@ -1842,7 +1842,7 @@
         }
       },
       {
-        "HashCode": -14599599,
+        "HashCode": 1442911728,
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.SpaServices.Prerendering.PrerenderTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.SpaServices",
@@ -1909,8 +1909,8 @@
   "RootNamespace": "MVCBasica",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1919,18 +1919,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Fornecedors\\Delete.cshtml",
-      "TargetPath": "Views\\Fornecedors\\Delete.cshtml",
+      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Fornecedors\\Edit.cshtml",
+      "TargetPath": "Views\\Fornecedors\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1939,18 +1939,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Fornecedors\\Details.cshtml",
       "TargetPath": "Views\\Fornecedors\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Fornecedors\\Delete.cshtml",
+      "TargetPath": "Views\\Fornecedors\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1964,13 +1964,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Fornecedors\\Edit.cshtml",
-      "TargetPath": "Views\\Fornecedors\\Edit.cshtml",
+      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -1979,13 +1979,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Fornecedors\\_Endereco.cshtml",
+      "TargetPath": "Views\\Fornecedors\\_Endereco.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Fornecedors\\_Endereco.cshtml",
-      "TargetPath": "Views\\Fornecedors\\_Endereco.cshtml",
+      "FilePath": "c:\\Users\\tarci\\Documents\\Desenvolvedor.io\\MVC\\MVCBasica\\MVCBasica\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
