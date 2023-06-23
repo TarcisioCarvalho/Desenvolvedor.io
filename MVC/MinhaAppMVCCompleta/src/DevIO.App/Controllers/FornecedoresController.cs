@@ -8,23 +8,28 @@ using Microsoft.EntityFrameworkCore;
 using DevIO.App.Data;
 using DevIO.App.ViewModels;
 using DevIO.Business.Interfaces;
+using AutoMapper;
 
 namespace DevIO.App.Controllers
 {
     public class FornecedoresController : Controller
     {
         private readonly IFornecedorRepository _fornecedorRepository;
+        private readonly IMapper _mapper;
 
-        public FornecedoresController(IFornecedorRepository fornecedorRepository)
+        public FornecedoresController(IFornecedorRepository fornecedorRepository,
+            IMapper mapper
+            )
         {
             _fornecedorRepository = fornecedorRepository;
+            _mapper = mapper;
         }
 
 
         // GET: Fornecedores
         public async Task<IActionResult> Index()
         {
-            return View(await _context.FornecedorViewModel.ToListAsync());
+            return View(_mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos()));
         }
 
         // GET: Fornecedores/Details/5
