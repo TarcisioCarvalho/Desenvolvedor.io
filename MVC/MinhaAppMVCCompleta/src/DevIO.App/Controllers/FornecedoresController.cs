@@ -157,5 +157,10 @@ namespace DevIO.App.Controllers
         {
             return _context.FornecedorViewModel.Any(e => e.Id == id);
         }
+
+        private async Task<FornecedorViewModel> ObterFornecedorEndereco(Guid id)
+        {
+            return _mapper.Map<FornecedorViewModel>( await _fornecedorRepository.ObterFornecedorEndereco(id));
+        }
     }
 }
