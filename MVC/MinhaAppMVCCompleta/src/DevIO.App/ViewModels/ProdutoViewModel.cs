@@ -13,6 +13,9 @@ namespace DevIO.App.ViewModels
         [Key]
         public Guid Id { get; set; }
         [Required(ErrorMessage = "O Campo {0} é Obrigatório")]
+        [DisplayName("Fornecedor")]
+        public Guid FornecedorId { get; set; }
+        [Required(ErrorMessage = "O Campo {0} é Obrigatório")]
         [StringLength(200, ErrorMessage = "O Campo {0} precisa ter entre {2} e {1} caracteres", MinimumLength = 2)]
         public string Nome { get; set; }
         [DisplayName("Descrição")]
