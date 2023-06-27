@@ -38,3 +38,8 @@ C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\
 C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\Create.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\Delete.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\Details.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\Edit.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\Index.cshtml.g.cs

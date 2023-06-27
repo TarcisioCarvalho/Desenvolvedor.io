@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using DevIO.App.Data;
 using DevIO.App.ViewModels;
 using DevIO.Business.Interfaces;
 using AutoMapper;
@@ -117,11 +113,6 @@ namespace DevIO.App.Controllers
 
             await _fornecedorRepository.Remover(id);
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool FornecedorViewModelExists(Guid id)
-        {
-            return _context.FornecedorViewModel.Any(e => e.Id == id);
         }
 
         private async Task<FornecedorViewModel> ObterFornecedorEndereco(Guid id)
