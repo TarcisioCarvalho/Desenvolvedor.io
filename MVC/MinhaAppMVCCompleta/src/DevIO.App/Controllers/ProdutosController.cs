@@ -8,16 +8,23 @@ using Microsoft.EntityFrameworkCore;
 using DevIO.App.Data;
 using DevIO.App.ViewModels;
 using DevIO.Business.Interfaces;
+using AutoMapper;
 
 namespace DevIO.App.Controllers
 {
     public class ProdutosController : Controller
     {
         private readonly IPRodutoRepository _produtoRepository;
+        private readonly IFornecedorRepository _fornecedorRepository;
+        private readonly IMapper _mapper;
 
-        public ProdutosController(IPRodutoRepository pRodutoRepository)
+        public ProdutosController(IPRodutoRepository pRodutoRepository,
+            IMapper mapper,
+            IFornecedorRepository fornecedorRepository)
         {
+            _fornecedorRepository = fornecedorRepository;
             _produtoRepository = pRodutoRepository;
+            _mapper = mapper;
         }
 
         // GET: Produtos
@@ -152,6 +159,13 @@ namespace DevIO.App.Controllers
             _context.ProdutoViewModel.Remove(produtoViewModel);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        private async Task<ProdutoViewModel> ObterProduto(Guid id)
+        {
+            var produto = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoFornecedor(id));
+            produto.Fornecedores = _mapper.Map<IEnumerable<FornecedorViewModel>>(await _fornecedorRepository.ObterTodos());
+            return produto;
         }
 
         private bool ProdutoViewModelExists(Guid id)
