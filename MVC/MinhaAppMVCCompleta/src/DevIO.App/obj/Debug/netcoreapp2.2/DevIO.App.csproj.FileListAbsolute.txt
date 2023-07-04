@@ -45,3 +45,9 @@ C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\
 C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\Index.cshtml.g.cs
 C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Create.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Delete.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Details.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Edit.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\Index.cshtml.g.cs
+C:\Users\tarci\Documents\Desenvolvedor.io\MVC\MinhaAppMVCCompleta\src\DevIO.App\obj\Debug\netcoreapp2.2\Razor\Views\Fornecedores\_Endereco.cshtml.g.cs
