@@ -6,6 +6,7 @@ using DevIO.App.ViewModels;
 using DevIO.Business.Interfaces;
 using AutoMapper;
 using MVCBasica.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace DevIO.App.Controllers
 {
@@ -64,6 +65,12 @@ namespace DevIO.App.Controllers
         {
             produtoViewModel = await PopularFornecedores(produtoViewModel);
             if (ModelState.IsValid) return View(produtoViewModel);
+
+            var imgPrefixo = new Guid() + "_";
+            if(!await uploadImagem(produtoViewModel.ImagemUpload,imgPrefixo))
+            {
+                return View(produtoViewModel);
+            }
 
             await _produtoRepository.Adicionar(_mapper.Map<Produto>(produtoViewModel));
            
@@ -137,5 +144,12 @@ namespace DevIO.App.Controllers
             return produto;
         }
 
+        private async Task<bool> UploadImagem(IFormFile arquivo,string nome)
+        {
+               
+            if (arquivo.Length <= 0) return false;
+            
+            
+        }
     }
 }
