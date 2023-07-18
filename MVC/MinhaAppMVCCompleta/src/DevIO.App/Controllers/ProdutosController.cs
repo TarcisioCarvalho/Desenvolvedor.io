@@ -7,6 +7,7 @@ using DevIO.Business.Interfaces;
 using AutoMapper;
 using MVCBasica.Models;
 using Microsoft.AspNetCore.Http;
+using System.IO;
 
 namespace DevIO.App.Controllers
 {
@@ -64,17 +65,19 @@ namespace DevIO.App.Controllers
         public async Task<IActionResult> Create(ProdutoViewModel produtoViewModel)
         {
             produtoViewModel = await PopularFornecedores(produtoViewModel);
-            if (ModelState.IsValid) return View(produtoViewModel);
+            if (!ModelState.IsValid) return View(produtoViewModel);
 
             var imgPrefixo = new Guid() + "_";
-            if(!await uploadImagem(produtoViewModel.ImagemUpload,imgPrefixo))
+            if(!await UploadImagem(produtoViewModel.ImagemUpload,imgPrefixo))
             {
                 return View(produtoViewModel);
             }
 
+            produtoViewModel.Imagem = imgPrefixo + produtoViewModel.ImagemUpload.Name;
+
             await _produtoRepository.Adicionar(_mapper.Map<Produto>(produtoViewModel));
-           
-            return View(produtoViewModel);
+
+            return RedirectToAction("Index");
         }
 
         // GET: Produtos/Edit/5
@@ -144,12 +147,25 @@ namespace DevIO.App.Controllers
             return produto;
         }
 
-        private async Task<bool> UploadImagem(IFormFile arquivo,string nome)
+        private async Task<bool> UploadImagem(IFormFile arquivo,string imgPrefixo)
         {
                
             if (arquivo.Length <= 0) return false;
-            
-            
+
+            var path = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot/imagens",imgPrefixo + arquivo.FileName);
+
+            if(System.IO.File.Exists(path))
+            {
+                ModelState.AddModelError(string.Empty, "Já Existe um arquivo come esse nome");
+                return false;
+            }
+
+            using(var stream = new FileStream(path,FileMode.Create))
+            {
+                await arquivo.CopyToAsync(stream);
+            }
+
+            return true;
         }
     }
 }
