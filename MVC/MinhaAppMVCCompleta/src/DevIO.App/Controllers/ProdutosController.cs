@@ -67,7 +67,7 @@ namespace DevIO.App.Controllers
             produtoViewModel = await PopularFornecedores(produtoViewModel);
             if (!ModelState.IsValid) return View(produtoViewModel);
 
-            var imgPrefixo = new Guid() + "_";
+            var imgPrefixo = Guid.NewGuid() + "_";
             if(!await UploadImagem(produtoViewModel.ImagemUpload,imgPrefixo))
             {
                 return View(produtoViewModel);
